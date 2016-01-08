@@ -1,6 +1,16 @@
-# iCapps cocoapods specs
+# iCapps specs
 
 This is our iCapps Cocoapods specs repository.
+
+## Setup
+
+Add the iCapps specs repository to your Cocoapods installation by running the following command in your CLI:
+
+    pod repo add icapps-spec git@github.com:icapps/specs.git
+
+When you want to remove the iCapps specs repository from your Cocoapods installation you can run the following line:
+
+    pod repo remove icapps-spec
 
 ## License
 
