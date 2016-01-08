@@ -20,6 +20,12 @@ Add you pod to the iCapps specs repo with the following command:
 
     pod repo push icapps-specs ~/path_to/SomePod.podspec
 
+## Use in your Podfile
+
+Add the `source` line on top of your Podfile in order to install pods from this specs repo.
+
+    source 'https://github.com/icapps/specs'
+
 ## License
 
 Copyright (c) 2015 iCapps
