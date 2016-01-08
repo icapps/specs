@@ -16,7 +16,7 @@ When you want to remove the iCapps specs repository from your Cocoapods installa
 
 When you want to add a pod to the repository, you'll first have to start by creating your `.podspec` file. More information on how to do this can be found [here](https://guides.cocoapods.org/making/specs-and-specs-repo.html).
 
-Add you pod to the iCapps specs repo with the following command:
+Before you push the podspec to the specs repo you'll have to tag the commit with the correct version number as defined in the `.podspec` file. Now add you pod to the iCapps specs repo with the following command:
 
     pod repo push icapps-specs ~/path_to/SomePod.podspec
 
